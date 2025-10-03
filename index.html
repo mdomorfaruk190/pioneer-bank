@@ -20,8 +20,9 @@
     </div>
     <script>
         const loginBtn = document.getElementById('login');
-        loginBtn.addEventListener('mouseleave', function(){
-            console.log("Click me");
+        loginBtn.addEventListener('click', function(){
+            const loginArea = document.getElementById('login-area');
+            loginArea.style.display = 'none';
         });
     </script>
 </body>
